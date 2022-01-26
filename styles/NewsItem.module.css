@@ -1,0 +1,52 @@
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsinner {
+  border: 1px solid black;
+  height: 28vh;
+  width: 80vw;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.img {
+  height: 93%;
+  margin: 0.5%;
+  width: 20%;
+ 
+}
+
+.content {
+  height: 93%;
+  margin: 0.5%;
+  width: 100%;
+
+}
+
+.source {
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+
+.desc {
+  margin-left: 1%;
+  margin-right: 1%;
+  
+ 
+
+
+}
+
+
+.author{
+ 
+    text-align: right;
+    margin: 1%;
+}

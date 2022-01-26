@@ -7,7 +7,10 @@ function Header() {
       <div className={style.left}>News App</div>
 
       <ul className={style.list}>
-        <Link href="/">
+      <Link href="/">
+        <a className={style.itemList}>Home</a>
+        </Link>
+        <Link href="/headlines">
         <a className={style.itemList}>Headlines</a>
         </Link>
         <Link href="/about">
