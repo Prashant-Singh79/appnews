@@ -1,0 +1,58 @@
+
+.signhead{
+  
+    height: 90vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  .signheadinner{
+  
+    height: 60vh;
+    width: 25vw;
+   color: white;
+   background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    
+  
+    
+  
+  }
+  
+  
+  .signinput{
+   
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  padding: .5rem;
+  font-size: medium;
+ 
+  
+  }
+  
+  .signbtn{
+    
+    color:rebeccapurple;
+    margin-top: 2em;
+    padding: .5em;
+    border-radius: 10px;
+    font-size: larger;
+  }
+  
+  .signlabel{
+    margin: 10px;
+    font-size: larger;
+  }
+
+  .link{
+      margin-top: 5%;
+  }
