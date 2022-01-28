@@ -29,7 +29,7 @@ function signin() {
               // value={registration.password}
             ></input>
            
-           <a href="/headlines"> <button className ={style.signbtn}>
+           <a href=""> <button className ={style.signbtn}>
               Log in
             </button></a> 
             <Link href="/" ><a><div className={style.link}>Register</div></a></Link>
