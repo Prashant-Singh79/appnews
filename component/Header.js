@@ -13,7 +13,7 @@ function Header() {
         <Link href="/headlines">
         <a className={style.itemList}>Headlines</a>
         </Link>
-        <Link href="/about">
+        <Link href="/sources">
         <a className={style.itemList}>Sources</a>
         </Link>
       </ul>

@@ -6,12 +6,14 @@ import {SessionProvider} from "next-auth/react"
 
 
 
+
 function MyApp({ Component, pageProps }) {
   return (
     
   <SessionProvider>
     <Layout title={"News App"}>
   <Component {...pageProps} />
+ 
   </Layout>
   </SessionProvider>
  

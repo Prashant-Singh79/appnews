@@ -6,7 +6,7 @@ function NewsItem({ news }) {
     <div className={style.news}>
       <a  href={news.url} className={style.newsinner}>
         <div className={style.img}>
-          
+          <img src={news.urlToImage} height={250} width={300} ></img>
         </div>
         <div className={style.content}>
           <div className={style.source}><h1>{news.source.name}</h1></div>
